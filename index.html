@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-scetch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Etch-a-Scetch</h1>
+    <div class="container" id="container">
+    </div>
+    <div class="settings">
+        <input type="color" class="buttorColor" onclick="changeColor(this.value)"></button>
+        <button class="button buttonEraser" onclick="changeColor('white')">Eraser</button>
+        <button class="button buttonClear" onclick="clearGrid()">Clear</button>
+        <input class="size" type="text" placeholder="Size" onchange="changeSize(this.value)">
+        <button class="button change">Change size</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
