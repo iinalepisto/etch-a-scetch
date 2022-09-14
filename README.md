@@ -1,1 +1,1 @@
-# etch-a-scetch
+Etch-a-scetch drawing game
